@@ -1,0 +1,192 @@
+.formquest {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input:focus {
+  border-color: #59c861;
+}
+
+
+input {
+  border: none;
+  border-bottom: 2px solid #73e47a;
+  padding: 3px 0;
+  font-size: 15px;
+  background-color: transparent;
+  outline: none;
+  color: #111;
+  transition: border-color 0.3s ease;
+  margin-left: 50px;
+  width: 400px;
+}
+
+#tituloquestionario2{
+      font-size: 25px;
+      margin-left: 50px;
+     
+}
+
+select {
+    border: none;
+    border-bottom: 2px solid #73e47a;
+    padding: 6px 0;
+    font-size: 14px;
+    background-color: transparent;
+    outline: none;
+    appearance: none;
+    cursor: pointer;
+    margin-left: 50px;
+    color: black;
+  width: 400px;}
+
+  .sexo-section {
+  margin-left: 50px;
+  width: 400px;
+  margin-top: 10px;
+}
+
+.sexo-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sexo-header p {
+  margin: 0;
+  font-weight: 600;
+  color: #111;
+}
+
+/* Botão seta */
+.toggle-sexo {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggle-sexo img {
+  width: 25px;
+  height: 25px;
+  transition: transform 0.3s ease;
+}
+
+/* Caixa escondida por padrão */
+.sexo-opcoes {
+  display: none;
+  flex-direction: column;
+  background-color:  #9496a4;
+  border-radius: 15px;
+  margin-top: 10px;
+  padding: 10px;
+  gap: 6px;
+}
+
+/* Quando o checkbox estiver marcado → exibe */
+#toggle-sexo:checked ~ .sexo-opcoes {
+  display: flex;
+}
+
+/* Gira a seta quando aberto */
+#toggle-sexo:checked + .toggle-sexo img {
+  transform: rotate(180deg);
+}
+
+/* Opções internas */
+.sexo-box input[type="radio"] {
+  display: none;
+}
+
+.sexo-box label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+  color: #111;
+  font-size: 14px;
+}
+
+.sexo-box label::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  background: white;
+  transition: 0.2s;
+}
+
+.sexo-box input[type="radio"]:checked + label::before {
+  background: #73e47a;
+  border-color: #73e47a;
+}
+
+.explicacao {
+  background-color:  #9496a4;
+  border-radius: 10px;
+  padding: 8px;
+  font-size: 12px;
+  color: #222;
+  line-height: 1.3;
+}
+
+.divquest2{
+    
+    height: 580px;
+    width: 500px;
+    background-color: white;
+    border-radius: 8px;
+     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+       position: relative;
+  overflow-y: auto;   /* ativa rolagem interna se necessário */
+  max-height: 578px;
+    
+}
+
+.divavançar2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 15px;
+    margin-top: 100px;
+    position: absolute;
+  bottom: 20px;
+  right: 20px;
+  margin: 0;
+    
+}
+
+select option[disabled][selected] {
+  color: #9e9e9e;
+}
+
+select:invalid {
+  color:#9e9e9e;
+}
+
+select option {
+  color: #111;
+}
+
+input::placeholder {
+  color: #9e9e9e;
+   opacity: 1;
+}
+
+#setaparabaixo{
+  transform: rotate(-90deg);
+  height: 16px;
+  width: 16px;
+}
+
+ .boxquest2{
+     display: flex;
+   align-items: center;
+   justify-content: center;
+     margin-top: 2.5%;
+
+}

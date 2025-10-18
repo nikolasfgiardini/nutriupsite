@@ -1,0 +1,456 @@
+
+
+body{
+    background-color:#2a2c40 ;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    outline: none;
+    font-size: "opensans";
+   
+}
+
+.bntlogo{
+ background-color: #2a2c40;
+ border: none;       
+    outline: none;      
+    box-shadow: none;
+    cursor: pointer;
+     height: 55px;
+    width: 55x;
+     margin-top: 10PX;
+  
+
+
+}
+
+.bntlogo:hover{
+  transform: translateY(-2px); 
+  transform: 0,2;
+}
+
+
+
+.header{
+    height: 10px;
+   
+}
+
+.imglogo{
+    height: 100%;
+    width: 100%;
+   
+   
+}
+
+.barra {
+
+     display: flex;
+    align-items: center;  
+    justify-content: space-between;
+    height: 70px;
+   
+}
+
+nav{
+  
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: fixed;
+   background-color: #2a2c40;
+  padding: 16px;
+
+}
+
+
+
+.texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    padding: auto;
+    flex-direction: column;
+}
+
+
+
+.texto h1{
+    color: white;
+    font-size: 60px;
+    margin: 20px;
+    margin-top: 20px;
+}
+
+.persona{
+width: 100%;
+height: 100%;
+margin-top: 20px;
+    
+}
+
+.bntperfil{
+      background-color: #2a2c40;
+     border: none;       
+    outline: none;      
+    box-shadow: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-right: 150px;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.bntperfil:hover{
+     
+      transform: translateY(-2px); 
+}
+
+.divnavbartxt{
+    background-color: #2a2c40;
+    gap: 65px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+
+
+}
+
+.bnttxt{
+      background-color: #2a2c40;
+     border: none;       
+    outline: none;      
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: 35px;
+    color: #7ed957;
+    font-family: "display";
+    transition:  0.3s; 
+    transform: 0,2;
+    border-radius: 8px;
+   
+}
+
+.bnttxt:hover{
+    background: rgba(255, 255, 255, 0.25);
+      transform: translateY(-2px); 
+}
+
+.barra{
+    height: 50px;
+    width: 100%;
+}
+
+
+@font-face{
+    font-family: "opensans";
+    src: url(Open_Sans\,Playfair_Display.zip);
+}
+
+#espaçamento{
+    height: 50px;
+}
+
+.box{
+
+   gap: 25px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.box2{
+    display: flex;
+
+}
+    
+.divdia {
+  
+
+    font-size: 35px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    border-radius: 8px;
+    width: 90px;
+    height: 80px;
+    background-color:white;
+      transition:  0.3s; 
+
+}
+
+#espaçamento2{
+    height: 150px;
+}
+
+
+.divcaloriaseafins{
+    color:#7ed957;
+    margin-left: 270px;
+
+}
+
+
+.divalimentos{
+   
+
+   width: 830px;
+   height: 250px;
+   background-color: #9496a4;
+   border-radius: 8px;
+}
+
+#espaçamento3{
+    height: 20px;
+}
+
+.bntimgmais{
+     border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+
+}
+
+.bntimgmais:hover{
+ transform: translateY(-2px); 
+  transform: 0,2;
+}
+
+
+.bntdia{
+    border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  transition: 0,2 all;
+
+}
+
+.boxalimentos{
+    display: flex;
+    justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 180px;
+  margin-right: 10px;
+}
+
+.boxalimentos2{
+    display: flex;
+    justify-content: flex-end;
+  align-items: flex-end;
+   margin-right: 10px;
+   margin-top: 10px;
+ 
+}
+
+
+.bntdia:hover{
+    cursor: pointer;
+    transform: scale(0.80);
+      transition:  0.3s; 
+
+}
+
+.divdia:hover{
+    background-color: #9496a4;
+}
+
+.bnttroca{
+
+    border: none;       
+    outline: none;      
+    box-shadow: none;
+    cursor: pointer;
+ 
+    height: 25px;
+    width: 90px;
+    background-color: #2a2c40;
+    color: white;
+    border-radius: 30px;
+    outline: none;
+    box-shadow: none;
+      transition:  0.3s; 
+  
+}
+
+.bntremover{
+    border: none;       
+    outline: none;      
+    box-shadow: none;
+    cursor: pointer;
+     background-color: #2a2c40;
+       transition:  0.3s; 
+
+   
+}
+
+.bntremover:hover{
+    cursor: pointer;  
+    background-color: #3f414d;
+}
+
+.bnttroca:hover{
+    cursor: pointer;  
+    background-color: #3f414d; 
+}
+
+
+
+.divalimentos2{
+     background-color: #9496a4;
+   border-radius: 20px;
+     width: 830px;
+     height: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   
+}
+
+
+
+.dibntmaispreto{ 
+     height: 20px;
+    width: 20px;
+    background-color: #9496a4;
+    
+
+}
+
+.maispreto{
+    height: 40px;
+    width: 40px;
+}
+
+.bntmaispreto{
+    background-color: #9496a4;
+    border: none;       
+    outline: none;      
+    box-shadow: none;
+    cursor: pointer;
+    transition: 0,2 all;
+      transition:  0.3s; 
+}
+
+.bntmaispreto:hover{
+    
+    transform: scale(0.80)
+}
+
+
+.boxverificardias{
+     display: flex;
+    align-items: flex-end;
+   justify-content:  flex-end;
+   margin-top: 10px;
+   margin-right: 260px;
+  
+    
+}
+#bntverificardia{
+    background-color: #9496a4;
+    height: 30px;
+    width: 250px;
+    border: none;       
+    outline: none;      
+    box-shadow: none;
+    cursor: pointer;
+    border-radius: 10px;
+      display: flex;
+    align-items: center;
+   justify-content:  center;
+   font-size: 16px;
+     transition:  0.3s; 
+   
+}
+
+    #imgverificar1{
+   
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+  }
+
+  #bntverificardia:hover{
+   background-color: #3f414d;
+  }
+
+  .divfooter{
+   background-color: #3f414d;
+    height: 300px;
+    width: 100%;
+    margin-top: 80px;
+        display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 350px;
+  }
+
+  .ptitulo{
+    color: #7ed957;
+    font-size: 30px;
+
+   
+
+  }
+
+  .divoferecemos{
+    display: flex;
+    flex-direction: column;  
+   align-items: flex-start;
+   color: white;
+   
+
+  }
+
+  .ptexto{
+    font-size: 20px;
+  }
+
+  .divlinha{
+    height: 1px;
+    background-color: black;
+  }
+
+  .ptxtfinal{
+    color: white;
+    font-size: 15px;
+  }
+
+  .footer{
+   background-color: #3f414d;
+    height: 100px;
+    width: 100%;
+        display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+
+  .bntcontatos{
+    background-color: #3f414d;
+    border-radius: 30px;
+     border: none;       
+    outline: none;      
+    box-shadow: none;
+    cursor: pointer;
+    transition: 0,3 all;
+    margin-left: 5px;
+    width: 25px;
+   
+
+  }
+
+  .bntcontatos:hover{
+    transform: translateY(-2px); 
+  transform: 0,2;
+  background-color: #9496a4;
+  }

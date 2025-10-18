@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="csspaginaprincipal.css">
+    <link rel="stylesheet" href="gay.css">
+    <link rel="stylesheet" href="paginatreinocss.css">
+    <link rel="stylesheet" href="paginanutricionistas.css">
+    <link rel="stylesheet" href="questionario1.css">
+    <link rel="stylesheet" href="questionario2.css">
+    <title>questionario1</title>
+</head>
+<body>
+
+     <div class="boxquest2">
+        <div class="divquest2">
+          <a href="questionario1.html">
+            <button class="bntback">
+                <img id="voltarimg" src="icons8-left-64.png" alt="voltar">
+            </button>
+          </a>
+
+             <p id="tituloquestionario2"> Dados pessoais</p>  
+            
+            <form class="formquest">
+                <input type="text" placeholder="digite sua aultura" required><br>
+                <input type="text" placeholder="digite seu peso" required><br>
+                <input type="text" placeholder="digite sua altura"required><br>
+               <select required>
+  <option value="" disabled selected>Selecione seu objetivo</option>
+  <option value="massa">Ganho de massa</option>
+  <option value="emagrecimento">Emagrecimento</option>
+  <option value="definicao">manutenção do peso</option>
+</select>
+            </form>
+
+            <!-- Campo Sexo Biológico -->
+            <div class="sexo-section">
+                <!-- 🔹 Checkbox invisível deve ficar fora da header -->
+                <input type="checkbox" id="toggle-sexo" hidden>
+
+                <div class="sexo-header">
+                    <p>Sexo biológico</p>
+                    <label for="toggle-sexo" class="toggle-sexo">
+                        <img src="seta-esquerda.png" id="setaparabaixo" alt="mostrar opções">
+                    </label>
+                </div>
+
+                <div class="sexo-opcoes">
+                    <div class="sexo-box">
+                        <input type="radio" name="sexo" id="homem">
+                        <label for="homem">Homem</label>
+
+                        <input type="radio" name="sexo" id="mulher">
+                        <label for="mulher">Mulher</label>
+
+                        <input type="radio" name="sexo" id="nao-informar">
+                        <label for="nao-informar">Prefiro não informar</label>
+                    </div>
+
+                    <p class="explicacao">
+                        Por que precisamos do seu sexo?<br>
+                        Ele é essencial para calcular sua taxa metabólica basal — a quantidade de calorias
+                        que seu corpo precisa diariamente. Assim, seu plano de treino e nutrição será mais
+                        preciso e eficiente.
+                    </p>
+
+                    
+                </div>
+                
+            </div>
+            <a href="questionario 3.html">
+             <div class="divavançar2">
+                <button class="bntavançar">
+                    avançar
+                </button>
+              </a>
+        </div>
+     </div>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+
+
+.divquest3{
+    
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    border-radius: 8px;
+     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    
+}
+
+.select3 {
+    border: none;
+    border-bottom: 2px solid #73e47a;
+    padding: 6px 0;
+    font-size: 14px;
+    background-color: transparent;
+    outline: none;
+    appearance: none;
+    cursor: pointer;
+    margin-left: 50px;
+    color: black;
+    margin-bottom: 30px;
+  width: 400px;}
+
+  #tituloquestionario3{
+    font-size: 25px;
+    margin-right: 280px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+  }
+
+  .boxquest3{
+     display: flex;
+   align-items: center;
+   justify-content: center;
+     margin-top: 9%;
+
+}

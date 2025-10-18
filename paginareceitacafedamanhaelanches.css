@@ -1,0 +1,179 @@
+.boxadicionar{
+    display: flex;
+    flex-direction: column;  
+   align-items: flex-start;
+   
+}
+
+.divimgreceita{
+    height: 100%;
+    width: 260px;
+   background-color: #3f414d; 
+   border-radius: 5px;
+}
+
+.divreceitas{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+   
+    
+   width: 830px;
+   height: 250px;
+   background-color: #9496a4;
+   border-radius: 12px;
+
+}
+
+
+.escrita{
+    width: 480px;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+    padding-top: 5px; 
+    font-size: 14px;
+    margin-bottom: 20px;
+  
+     
+   
+    
+}
+
+.espaçamentoreceita{
+    width: 10px;
+    height: 100%;
+}
+
+.tituloreceita{
+    color:  #7ed957;
+    margin-top: 30px;
+    font-size: 15px;
+} 
+
+.espaçamentor{
+    height: 50px;
+}
+
+.bntadd{
+
+    border: none;       
+    outline: none;      
+    box-shadow: none;
+    cursor: pointer;
+ 
+    height: 25px;
+    width: 90px;
+    background-color: #2a2c40;
+    color: white;
+    border-radius: 30px;
+    outline: none;
+    box-shadow: none;
+      transition:  0.3s; 
+
+      margin-bottom: 5px;
+      margin-right: 5px;
+  
+}
+
+.bntadd:hover{
+    cursor: pointer;  
+    background-color: #3f414d; 
+}
+
+.boxadd{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+     font-size: 13px;
+   margin-right: 5px;
+}
+
+.espaçamentoadd{
+    height: 80px;
+}
+
+.imgreceitas{
+    height: 100%;
+    width: 100%;
+    border-radius: 11px;
+}
+
+
+.divtrocarpag{
+    width: 125px;
+    justify-content: space-between;
+     display: flex;
+   align-items: center;
+   
+  margin-top: 20px;
+}
+
+.boxbnttrocar{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.bnttrocapag{
+    background-color: #3f414d;
+    border-radius: 40px;
+     border: none;       
+    outline: none;      
+    box-shadow: none;
+    cursor: pointer;
+    transition: 0,3 all;
+    margin-left: 5px;
+    width: 20px;
+    color: white;
+    font-size: 13px;
+}
+
+.bnttrocapag:hover{
+    transform: translateY(-2px); 
+  transform: 0,2;
+  background-color: #9496a4;
+  }
+
+  .imgseta{
+    width: 15px;
+    height: 12px;
+  }
+
+
+  .bntseta{
+     display: flex;
+   align-items: center;
+   justify-content: center;
+    border-radius: 40px;
+     border: none;       
+    outline: none;      
+    box-shadow: none;
+    cursor: pointer;
+    transition: 0,3 all;
+    margin-left: 5px;
+    width: 20px;
+    font-size: 13px;
+    background-color:#2a2c40 ;
+   
+}
+
+.bntseta:hover{
+    transform: translateY(-2px); 
+  transform: 0,2;
+ 
+  }
+
+  .tituloprincipal{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 80px;
+   margin-bottom:20px;
+   color:white;
+  }
+
