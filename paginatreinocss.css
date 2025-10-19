@@ -1,70 +1,9 @@
-body{
-    background-color:#2a2c40 ;
-    padding: 0;
-    margin: 0;
-    box-shadow: none;
-    outline: none;
-
-}
 
 
-
-
-
-
-
-.box{
-
-   gap: 25px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-
-
-.divdia {
-  
-
-    font-size: 35px;
-    display: flex;
-   align-items: center;
-   justify-content: center;
-    border-radius: 8px;
-    width: 90px;
-    height: 80px;
-    background-color:white;
-
-}
-
-#espaçamento{
-    height: 110px;
-}
-
-.bntdia{
-    border: none;
-  background: none;
-  cursor: pointer;
-  padding: 0;
-  transition: 0,2 all;
-
-}
-
-.bntdia:hover{
-    cursor: pointer;
-    transform: scale(0.80);
-}
-
-.divdia:hover{
-    background-color: #9496a4;
-}
-
-.espaçamento2{
-    height: 110px;
-}
 
 .divtreino{
-   
-
+   gap: 30px;
+ display: flex;
    width: 830px;
    height: 230px;
    background-color: #9496a4;
@@ -100,14 +39,6 @@ body{
    justify-content: center;
 }
 
-.boxtreino3{
-
-    margin-top: 10px;
-   gap: 25px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
 
 #adicionarpesooo{
     border-radius: 6px;
@@ -125,13 +56,43 @@ body{
 }
 
 .divaddpeso{
-    margin-top: 125px;
-    margin-left: 200px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;  
   align-items: flex-start;
    
 }
+
+.divtectotreino{
+    width: 400px;
+    margin-top: 10px;
+     margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.titulotreino{
+    color: #7ed957;
+   font-size: 20px;
+}
+
+.divimgtreino{
+    height: 100%;
+    background-color:#2a2c40 ;
+    width: 230px;
+    justify-content: flex-start;
+    display: flex;
+    border-radius: 8px;
+}
+
+
+.imgtreino{
+    height: 100%;
+    width: 100%;
+     border-radius: 8px;
+}
+
 
 
 
@@ -141,13 +102,13 @@ body{
     outline: none;      
     box-shadow: none;
     cursor: pointer;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    margin-left: 600px;
-    margin-top: 10px;
-   transition: 0,4;
-  
+    margin-bottom: 100px;
+   transition: 0.4;
+   height: 35px;
+   width: 35px;
+   margin-top: 10px;
+   margin-left: 40px;
+ 
 
   
 

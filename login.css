@@ -1,0 +1,28 @@
+.esqueciminhasenha{
+     margin-left: 350px;
+  margin-top: 2px;
+  font-size: 13px;
+  color: #9e9e9e;
+  text-decoration: none;
+  align-self: flex-start;
+  transition: color 0.3s;
+}
+
+.senha:hover{
+    color: #3a9b4f;
+  text-decoration: underline;
+}
+
+.senha{
+  margin-top: 1px;
+  font-size: 13px;
+  color: #7ed957;
+  text-decoration: none;
+  align-self: flex-start;
+  transition: color 0.3s;
+}
+
+.digiteseuemail{
+    margin-top: 20px;
+   margin-bottom: 30px;
+}
