@@ -1,0 +1,37 @@
+.codigo{
+    border: none;       
+    outline: none;      
+    box-shadow: none;
+    cursor: pointer;
+    background-color: transparent;
+    margin-top: 1px;
+  font-size: 12px;
+  color: #7ed957;
+  text-decoration: none;
+  align-self: flex-start;
+  transition: color 0.3s;
+
+}
+
+.codigo:hover{
+    color: #3a9b4f;
+  text-decoration: underline;
+}
+
+.boxtrocada{
+     display: flex;
+   align-items: center;
+   justify-content: center;
+     margin-top: 14%;
+
+}
+
+.divtrocada{
+    
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    border-radius: 8px;
+     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    
+}

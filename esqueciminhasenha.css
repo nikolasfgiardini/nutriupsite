@@ -1,0 +1,24 @@
+.textoesqueci{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.divesqueci{
+     height: 430px;
+    width: 500px;
+    background-color: white;
+    border-radius: 8px;
+     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.boxesqueci{
+     display: flex;
+   align-items: center;
+   justify-content: center;
+     margin-top: 9%;
+}
+
+.ou{
+    margin-left: 50px;
+}
+

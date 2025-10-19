@@ -10,31 +10,33 @@
     <link rel="stylesheet" href="questionario2.css">
     <link rel="stylesheet" href="questionario3.css">
     <link rel="stylesheet" href="login.css">
-    <title>login</title>
+    <link rel="stylesheet" href="esqueciminhasenha.css">
+    <link rel="stylesheet" href="codigopagina.css">
+    <title>codigo</title>
 </head>
 <body>
 
-
-    <div class="boxquest3">
+       <div class="boxquest3">
           <div class="divquest3">
-          <a href="pagina entrada.html">
+          <a href="esqueciminhasenha.html">
             <button class="bntback">
                 <img id="voltarimg" src="icons8-left-64.png" alt="voltar">
             </button>
           </a>
           
+       
+          <p id="tituloquestionario2">Esqueceu sua senha ?</p>
 
-          <p id="tituloquestionario2">Login</p>
-
+          <p class="textoesqueci">
+Insira o código de verificação que foi enviado para o seu e-mail cadastrado na área abaixo.
+Esse código é necessário para confirmar sua identidade e permitir que você crie uma nova senha com segurança. o codigo expira em 10 minutos</p>
+ <p class="esqueciminhasenha"> <button class="codigo">reenviar codigo </button></p>
+          
 
            <form class="formquest">
-                <input type="text" placeholder="digite seu e-mail"  class="digiteseuemail" type="email"><br>
-                <input type="text" placeholder="digite sua sennha " required minlength="8" type="password">
-                <p class="esqueciminhasenha"> esqueci minha <a href="esqueciminhasenha.html" class="senha">senha</a> </p>
-
-
-
-                 <a href="csspaginaprincipal.html">
+                <input type="text" placeholder="digite o codigo enviado por email " required>
+            
+                 <a href="novasenha.html">
             <div class="divavançar">
                 <button class="bntavançar">
                     avançar
@@ -46,9 +48,8 @@
 
     </div>
     
-        
-         
-    </div>
+
+</div>
 
 </body>
 </html>
