@@ -6,8 +6,8 @@ body{
     margin: 0;
     box-shadow: none;
     outline: none;
-    font-size: "opensans";
-    padding-top: 70px;
+    font-family: "opensans";
+  
     
    
 }
@@ -33,10 +33,6 @@ body{
 
 
 
-.header{
-    height: 10px;
-   
-}
 
 .imglogo{
     height: 100%;
@@ -51,6 +47,7 @@ body{
     align-items: center;  
     justify-content: space-between;
     height: 70px;
+   
    
 }
 
