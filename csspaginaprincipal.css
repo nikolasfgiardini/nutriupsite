@@ -1,5 +1,3 @@
-
-
 body{
     background-color:#2a2c40 ;
     padding: 0;
@@ -7,8 +5,6 @@ body{
     box-shadow: none;
     outline: none;
     font-family: "opensans";
-  
-    
    
 }
 
@@ -33,6 +29,10 @@ body{
 
 
 
+.header{
+    height: 10px;
+   
+}
 
 .imglogo{
     height: 100%;
@@ -48,13 +48,9 @@ body{
     justify-content: space-between;
     height: 70px;
    
-   
 }
 
 nav{
-
-   z-index: 10;
-  position: fixed;
   
    display: flex;
    align-items: center;
@@ -105,7 +101,6 @@ margin-top: 20px;
     justify-content: center;
     display: flex;
     align-items: center;
-  
     
 }
 
@@ -154,23 +149,16 @@ margin-top: 20px;
 
 @font-face{
     font-family: "opensans";
-    src: url(Open_Sans\,Playfair_Display.zip);
+    src: url(Open_Sans,Playfair_Display.zip);
 }
 
 #espaçamento{
     height: 50px;
 }
 
-.boxinicial{
-  margin-top: 100px;
-   gap: 25px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-
 .box{
- gap: 25px;
+
+   gap: 25px;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -198,7 +186,7 @@ margin-top: 20px;
 }
 
 #espaçamento2{
-    height: 100px;
+    height: 150px;
 }
 
 
@@ -210,12 +198,137 @@ margin-top: 20px;
 
 
 .divalimentos{
-   
-
    width: 830px;
    height: 250px;
    background-color: #9496a4;
    border-radius: 8px;
+   position: relative;
+   margin-bottom: 20px;
+   display: flex;
+   align-items: center;
+   padding: 15px;
+   box-sizing: border-box;
+}
+
+.divalimentos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.card-alimento-vazio {
+   width: 830px;
+   height: 250px;
+   background-color: #9496a4;
+   border-radius: 8px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+}
+
+.prato-preenchido {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* O tamanho da imagem na home quando levadao da pagina de receitas*/
+.prato-preenchido img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.prato-info {
+    color: white;
+    font-size: 14px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    max-height: 200px;
+    overflow-y: auto;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.prato-info::-webkit-scrollbar {
+    width: 6px;
+}
+
+.prato-info::-webkit-scrollbar-track {
+    background: #2a2c40;
+    border-radius: 3px;
+}
+
+.prato-info::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 3px;
+}
+
+.prato-info::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
+
+.prato-info p {
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    font-size: 16px;
+    color: white; /* o que define a cor do texto das receita na home */
+}
+
+.bntremover-fixo {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #2a2c40;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 20;
+}
+
+
+.bnttroca-fixo {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background: #2a2c40;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 20px;
+    cursor: pointer;
+    z-index: 20;
+    font-size: 14px;
+    min-width: 80px;
+}
+
+.bntmaispreto {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.maispreto {
+    width: 50px;
+    height: 50px;
 }
 
 #espaçamento3{
@@ -245,24 +358,6 @@ margin-top: 20px;
 
 }
 
-.boxalimentos{
-    display: flex;
-    justify-content: flex-end;
-  align-items: flex-end;
-  margin-top: 180px;
-  margin-right: 10px;
-}
-
-.boxalimentos2{
-    display: flex;
-    justify-content: flex-end;
-  align-items: flex-end;
-   margin-right: 10px;
-   margin-top: 10px;
- 
-}
-
-
 .bntdia:hover{
     cursor: pointer;
     transform: scale(0.80);
@@ -275,12 +370,10 @@ margin-top: 20px;
 }
 
 .bnttroca{
-
     border: none;       
     outline: none;      
     box-shadow: none;
     cursor: pointer;
- 
     height: 25px;
     width: 90px;
     background-color: #2a2c40;
@@ -288,8 +381,7 @@ margin-top: 20px;
     border-radius: 30px;
     outline: none;
     box-shadow: none;
-      transition:  0.3s; 
-  
+    transition:  0.3s; 
 }
 
 .bntremover{
@@ -297,10 +389,8 @@ margin-top: 20px;
     outline: none;      
     box-shadow: none;
     cursor: pointer;
-     background-color: #2a2c40;
-       transition:  0.3s; 
-
-   
+    background-color: #2a2c40;
+    transition:  0.3s; 
 }
 
 .bntremover:hover{
@@ -313,8 +403,6 @@ margin-top: 20px;
     background-color: #3f414d; 
 }
 
-
-
 .divalimentos2{
      background-color: #9496a4;
    border-radius: 20px;
@@ -323,17 +411,12 @@ margin-top: 20px;
      display: flex;
      justify-content: center;
      align-items: center;
-   
 }
-
-
 
 .dibntmaispreto{ 
      height: 20px;
     width: 20px;
     background-color: #9496a4;
-    
-
 }
 
 .maispreto{
@@ -341,21 +424,9 @@ margin-top: 20px;
     width: 40px;
 }
 
-.bntmaispreto{
-    background-color: #9496a4;
-    border: none;       
-    outline: none;      
-    box-shadow: none;
-    cursor: pointer;
-    transition: 0,2 all;
-      transition:  0.3s; 
-}
-
 .bntmaispreto:hover{
-    
     transform: scale(0.80)
 }
-
 
 .boxverificardias{
      display: flex;
@@ -363,9 +434,8 @@ margin-top: 20px;
    justify-content:  flex-end;
    margin-top: 10px;
    margin-right: 260px;
-  
-    
 }
+
 #bntverificardia{
     background-color: #9496a4;
     height: 30px;
@@ -375,93 +445,102 @@ margin-top: 20px;
     box-shadow: none;
     cursor: pointer;
     border-radius: 10px;
-      display: flex;
+    display: flex;
     align-items: center;
-   justify-content:  center;
-   font-size: 16px;
-     transition:  0.3s; 
-   
+    justify-content:  center;
+    font-size: 16px;
+    transition:  0.3s; 
 }
 
-    #imgverificar1{
-   
+#imgverificar1{
     height: 20px;
     width: 20px;
     margin-left: 10px;
-  }
+}
 
-  #bntverificardia:hover{
+#bntverificardia:hover{
    background-color: #3f414d;
-  }
+}
 
-  .divfooter{
+.divfooter{
    background-color: #3f414d;
     height: 300px;
     width: 100%;
     margin-top: 80px;
-        display: flex;
+    display: flex;
    align-items: center;
    justify-content: center;
    gap: 350px;
-  
-  }
+}
 
-  .ptitulo{
+.ptitulo{
     color: #7ed957;
     font-size: 30px;
+}
 
-   
-
-  }
-
-  .divoferecemos{
+.divoferecemos{
     display: flex;
     flex-direction: column;  
    align-items: flex-start;
    color: white;
-   
+}
 
-  }
-
-  .ptexto{
+.ptexto{
     font-size: 20px;
-  }
+}
 
-  .divlinha{
+.divlinha{
     height: 1px;
     background-color: black;
-  }
+}
 
-  .ptxtfinal{
+.ptxtfinal{
     color: white;
     font-size: 15px;
-  }
+}
 
-  .footer{
+.footer{
    background-color: #3f414d;
     height: 100px;
     width: 100%;
-        display: flex;
+    display: flex;
    align-items: center;
    justify-content: center;
-  }
+}
 
-  .bntcontatos{
+.bntcontatos{
     background-color: #3f414d;
     border-radius: 30px;
-     border: none;       
+    border: none;       
     outline: none;      
     box-shadow: none;
     cursor: pointer;
     transition: 0,3 all;
     margin-left: 5px;
     width: 25px;
-   
+}
 
-  }
-
-  .bntcontatos:hover{
+.bntcontatos:hover{
     transform: translateY(-2px); 
-  transform: 0,2;
-  background-color: #9496a4;
-  }
+    transform: 0,2;
+    background-color: #9496a4;
+}
+
+.bntremover-fixo:hover{
+    background-color: #3f414d;
+}
+
+.bnttroca-fixo:hover{
+    background-color: #3f414d;
+}
+
+.prato-preenchido {
+    align-items: flex-start;
+    min-height: 220px;
+}
+
+.divalimentos {
+    min-height: 250px;
+    height: auto;
+    padding: 15px;
+}
